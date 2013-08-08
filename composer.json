@@ -1,7 +1,7 @@
 {
-	"name": "clevis/skeleton-package",
+	"name": "clevis/articles-package",
 	"type": "clevis-skeleton-package",
-	"description": "Skeleton of packages for Skeleton21",
+	"description": "Articles package for Skeleton21",
 	"homepage": "http://clevis.cz",
 	"license": "BSD-3-Clause",
 	"authors": [
@@ -13,7 +13,8 @@
 
 	"require": {
 		"php": ">= 5.3.7",
-		"nette/nette": "@dev"
+		"nette/nette": "@dev",
+		"texy/texy": "master"
 	},
 
 	"autoload": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Package; // todo: změň při vytvoření balíčku
+namespace Clevis\Articles;
 
 use Nette\DI\Container;
 use Nette\Application\Routers\Route;

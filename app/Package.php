@@ -1,8 +1,7 @@
 <?php
 
-namespace Package; // todo: změň při vytvoření balíčku
+namespace Clevis\Articles;
 
-use Package\Router; // todo: změň při vytvoření balíčku
 use Nette\Configurator;
 use Nette\DI\Container;
 
@@ -27,7 +26,7 @@ class Package
 		$configurator->onAfter[] = function (Container $container) {
 
 			// registrace rout
-			$container->router[] = new Router;
+			//$container->router[] = new Router;
 
 			// registrace jmenného prostoru presenterů
 			$container->getService('nette.presenterFactory')->registerNamespace(__NAMESPACE__);
