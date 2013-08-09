@@ -30,6 +30,10 @@ class Package
 
 			// registrace jmenného prostoru presenterů
 			$container->getService('nette.presenterFactory')->registerNamespace(__NAMESPACE__);
+
+			// registrace rozšiřujících vazeb na entity
+			$container->getService('entityRelationsRegistry')
+				->addRelation('Clevis\\Articles\\Article', 'Clevis\\Users\\User');
 		};
 	}
 
