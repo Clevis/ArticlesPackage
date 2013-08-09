@@ -14,8 +14,16 @@
 	"require": {
 		"php": ">= 5.3.7",
 		"nette/nette": "@dev",
-		"texy/texy": "master"
+		"texy/texy": "master",
+		"clevis/users-package": "master"
 	},
+
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Clevis/UsersPackage.git"
+		}
+	],
 
 	"autoload": {
 		"classmap": ["app/"]
