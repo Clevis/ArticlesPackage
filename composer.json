@@ -13,7 +13,7 @@
 
 	"require": {
 		"php": ">= 5.3.7",
-		"nette/nette": "@dev",
+		"nette/nette": "2.1.*",
 		"texy/texy": "master",
 		"clevis/users-package": "master"
 	},
