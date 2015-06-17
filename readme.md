@@ -2,6 +2,8 @@
 ArticlesPackage
 ===============
 
+[![Join the chat at https://gitter.im/Clevis/ArticlesPackage](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Clevis/ArticlesPackage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ArticlesPackage je balíček pro Skeleton21 pro vytváření a správu článků.
 
 
